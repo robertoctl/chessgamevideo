@@ -7,7 +7,7 @@ var lineReader = require('readline').createInterface({
   input: fs.createReadStream('sampleEvent.pgn')
 });
 
-const id = crypto.randomBytes(16).toString("hex");
+const id = 'work/' + crypto.randomBytes(16).toString("hex");
 fs.mkdirSync(id);
 
 var header = '';
