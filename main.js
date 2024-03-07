@@ -12,7 +12,6 @@ fs.mkdirSync(id);
 
 var header = '';
 var index = 0;
-var images = [];
 
 lineReader.on('line', async function (line) {
   const imageGenerator = new ChessImageGenerator({
@@ -29,13 +28,11 @@ lineReader.on('line', async function (line) {
         slice = line.slice(0, index-1);  
         await imageGenerator.loadPGN(header + slice);
         await imageGenerator.generatePNG(id + '/pos' + i + '.png');
-        images.push(id + '/pos' + i + '.png');
       } else {
         index = line.indexOf('{');
         slice = line.slice(0, index-1);  
         await imageGenerator.loadPGN(header + slice);
         await imageGenerator.generatePNG(id + '/pos' + i + '.png');
-        images.push(id + '/pos' + i + '.png');
         return;
       }
     }
