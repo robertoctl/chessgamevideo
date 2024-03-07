@@ -1,0 +1,13 @@
+[Event "Online Game"]
+[Site "Chess.com iPhone"]
+[Date "2024.03.06"]
+[Round "?"]
+[White "8o8l8"]
+[Black "RobertoCTL"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[WhiteElo "865"]
+[BlackElo "831"]
+[Termination "RobertoCTL won by checkmate"]
+
+1.e3 c6 2.Nf3 d5 3.Nc3 e6 4.Be2 Nf6 5.d3 Bb4 6.Bd2 O-O 7.a3 Ba5 8.b4 Bb6 9.d4 Na6 10.b5 Nc7 11.bxc6 bxc6 12.Ne5 Rb8 13.Nxc6 Qd7 14.Nxb8 Qe8 15.Bb5 Nd7 16.Nxd7 Bxd7 17.Bxd7 Qxd7 18.O-O Nb5 19.Nxb5 Qxb5 20.Re1 f5 21.Qe2 Qd7 22.f3 Rf6 23.e4 fxe4 24.fxe4 dxe4 25.Qxe4 Bxd4+ 26.Be3 Bxa1 27.Qa8+ Rf8 28.Qe4 Bc3 29.Rd1 Qxd1#  {0-1}
