@@ -1,8 +1,11 @@
 {
   "dependencies": {
+    "aws-sdk": "^2.1573.0",
     "chess-image-generator": "^1.0.9",
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "telegram-bot-api": "^2.0.1",
     "videoshow": "^0.1.12"
   }
 }
